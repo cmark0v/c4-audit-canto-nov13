@@ -4,7 +4,7 @@
 
 **severity: medium**
 
-        The calculation of fees incurs a 3% to 20% relative error, which walks in both positive and negative directions from the quantity if it were calculated normally(the value anyone would expect it to be at least approximating, and docs would reflect). Anyone trying to account for this later could get a serious problem, though I don't see a manifestation of this yet. It is at bare minimum going to result in a very misrepresented fee structure due to negligence. 
+The calculation of fees incurs a 3% to 20% relative error, which walks in both positive and negative directions from the quantity if it were calculated normally(the value anyone would expect it to be at least approximating, and docs would reflect). Anyone trying to account for this later could get a serious problem, though I don't see a manifestation of this yet. It is at bare minimum going to result in a very misrepresented fee structure due to negligence. 
 
 [1155tech-contracts/src/bonding_curve/LinearBondingCurve.sol Line 20 of code-423n4/2023-11-canto ``main``](https://github.com/code-423n4/2023-11-canto/tree/335930cd53cf9a137504a57f1215be52c6d67cb3/1155tech-contracts/src/bonding_curve/LinearBondingCurve.sol#L20)
 ```solidity
