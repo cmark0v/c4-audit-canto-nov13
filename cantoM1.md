@@ -95,9 +95,7 @@ you can use this: $log(a x) = log(a)+log(x)$ or this relationship $a log(x) = lo
 in terms of what is already there, 
 
 $$
-
 \frac{10^{17}}{log_2(x)} = \frac{10^{18}}{10 log_2(x)} = \frac{10^{18}}{log_2(x^{10})}
-
 $$
 
 This would be good if we have a bound on $x$ (shares) that is small
