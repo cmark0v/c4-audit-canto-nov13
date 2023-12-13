@@ -93,8 +93,11 @@ mitigation
 you can use this: $log(a x) = log(a)+log(x)$ or this relationship $a log(x) = log(x^a)$ to translate the calculations into a range where the truncation isnt going to curb stomp accuracy, and remove the extra magnitude later
 
 in terms of what is already there, 
+
 $$
+
 \frac{10^{17}}{log_2(x)} = \frac{10^{18}}{10 log_2(x)} = \frac{10^{18}}{log_2(x^{10})}
+
 $$
 
 This would be good if we have a bound on $x$ (shares) that is small
